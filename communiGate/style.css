@@ -1,0 +1,118 @@
+A:link {text-decoration: none; color:#0000BB}
+A:visited {text-decoration: none; color:#0000BB}
+A:hover{text-decoration: underline}
+BODY {font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+}
+
+.EventBusy, .freeBusyBusy {font-size: 12px; background-color: #FFDDDD;}
+.EventFree, .freeBusyAvailable {font-size: 12px; background-color: #DDFFDD;}
+.EventUnavailable, .freeBusyUnavailable {font-size: 12px; background-color: #DDDDFF;}
+.EventConflicts {font-size: 12px; background-color: #FFBBBB;}
+.EventTentative, .freeBusyTentative {font-size: 12px; background-color: #FFFBBB;}
+
+.freeBusyBusy, .freeBusyAvailable, .freeBusyUnavailable, .freeBusyTentative {
+    border: 1px solid #ccc;
+}
+
+.PtyHighest {background-color: #FFBBBB;}
+.PtyHigh {background-color: #FFDDDD;}
+.PtyLow {background-color: #DDFFDD;}
+.PtyLowest {background-color: #BBFFBB;}
+
+#ComposeOptions {position:absolute; z-index:1; left: 20px; top: 50px; visibility: hidden; background-color: #FFFFFF; layer-background-color: #FFFFFF;}
+#ComposeOptions2 {position:absolute; z-index:1; left: 0px; top: 30px; visibility: hidden; background-color: #FFFFFF; layer-background-color: #FFFFFF;}
+
+.FieldText {font-size: 12px; color: #000000;}
+.FieldText input {font-size: 12px; color: #000000;}
+.FieldText select {font-size: 12px; color: #000000;}
+.GeneralText {font-size: 12px; color: #000000}
+.GeneralTextHighlighted {font-size: 12px; color: #000000 ; background-color: #EEEEEE;}
+.FixedTextSmall {font-size: 11px; color: #000000;}
+.FixedTextSmall input {font-size: 11px; color: #000000;}
+.FixedTextSmall select {font-size: 11px; color: #000000;}
+.FixedTextSmallHighlighted {font-size: 11px; color: #000000; BACKGROUND-COLOR: #DDDDDD; cursor: pointer; cursor: hand;}
+.TitleText {font-size: 14px; font-weight: bold; color: #FFFFFF;}
+.TitleText2 {font-size: 13px; font-weight: bold; color: #000000;}
+.MessageText {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #000000;}
+.MinorHeadingText {font-size: 13px; font-weight: bold; color: #000099; background-color: #EEEEEE;}
+.MinorHeadingTable {font-size: 12px; color: #000000; background-color: #FFFFFF;}
+.MajorHeadingText {font-size: 13px; color: #000000;}
+
+.FormButtonsSmall { font-size: 11px; color:#0000BB; text-align: center; vertical-align: middle; height: 24px; width: 24px;}
+
+.FormButtonsSmallOver { font-size: 11px; color:#0000BB; text-align: center; vertical-align: middle; height: 24px; width: 24px; background-image: url(bgrdformbuttonssmlovr.gif);}
+
+.FormButtonsSmallClicked { font-size: 11px; color:#0000BB; text-align: center; vertical-align: middle; height: 24px; width: 24px; background-image: url(bgrdformbuttonssmlckd.gif);}
+
+.FormButtons { font-size: 11px; color:#0000BB; text-align: center; vertical-align: middle; height: 24px; width: 24px; border-color: #003C74  #003C74 #003C74 #003C74; background-image: url(bgrdformbuttons.gif); padding-right: 2px; padding-left: 2px; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px;}
+
+.FormButtonsOver { font-size: 11px; color:#0000BB; text-align: center; vertical-align: middle; height: 24px; width:24px; border-color: #003C74  #003C74 #003C74 #003C74; background-image: url(bgrdformbuttonsover.gif); padding-right: 2px; padding-left: 2px; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px;}
+
+.FormButtonsClicked { font-size: 11px; color:#0000BB; text-align: center; vertical-align: middle; height: 24px; width:24px; border-color: #003C74  #003C74 #003C74 #003C74; background-image: url(bgrdformbuttonsclicked.gif); padding-right: 2px; padding-left: 2px; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px;}
+
+.FormButtonsLarge {font-size: 11px; color:#0000BB; text-align: center; vertical-align: middle; height: 30px; width: 30px;}
+
+.FormButtonsLargeOver {font-size: 11px; color:#0000BB; text-align: center; vertical-align: middle; height: 30px; width: 30px; background-image: url(bgrdformbuttonslrgovr.gif);}
+
+.FormButtonsLargeClicked {font-size: 11px; color:#0000BB; text-align: center; vertical-align: middle; height: 30px; width: 30px; background-image: url(bgrdformbuttonslrgckd.gif);}
+
+TR.H {BACKGROUND-COLOR: #EEEEEE;}
+TR.O {BACKGROUND-COLOR: #DDDDDD;}
+TR.B {BACKGROUND-COLOR: #000000;}
+
+/* Style for the Text Toolbar */
+
+.htmlarea { background: #FFFFFF; }
+.htmlarea .toolbar { cursor: default; background-image: url(bgrdmenus.gif); padding: 0px 0px 0px 0px;}
+.htmlarea .toolbar table { font-family: Arial, Helvetica, sans-serif; font-size: 11px; }
+.htmlarea .toolbar img { border: none; }
+.htmlarea .toolbar .label { padding: 0px 0px; }
+
+.htmlarea .toolbar .button { font-size: 11px; color:#0000BB; text-align: center; vertical-align: middle; height: 24px; width: 24px;}
+
+.htmlarea .toolbar .buttonHover { background-image: url(bgrdformbuttonssmlovr.gif);}
+
+.htmlarea .toolbar .buttonActive, .htmlarea .toolbar .buttonPressed { background-image: url(bgrdformbuttonssmlckd.gif);}
+
+.htmlarea .toolbar .indicator { padding: 0px 3px; overflow: hidden; width: 20px; text-align: center; cursor: default; border: 1px solid ButtonShadow;}
+.htmlarea .toolbar .buttonDisabled img { filter: alpha(opacity = 25); -moz-opacity: 0.25;}
+.htmlarea .toolbar .separator { position: relative; background-image: url(verticaldivider.gif); width: 2px; height: 26px; padding: 0px;}
+.htmlarea .toolbar .space { width: 5px; }
+.htmlarea .toolbar select { font: 11px Arial, Helvetica, sans-serif; color: #000000;}
+.htmlarea .toolbar select, .htmlarea .toolbar select:hover, .htmlarea .toolbar select:active { color: #000000 }
+.htmlarea .statusBar { border: 1px solid; border-color: ButtonShadow ButtonHighlight ButtonHighlight ButtonShadow; padding: 2px 4px; background-color: ButtonFace; color: ButtonText; font: 11px Tahoma,Verdana,sans-serif;}
+.htmlarea .statusBar .statusBarTree a { padding: 2px 5px; color: #00f;}
+.htmlarea .statusBar .statusBarTree a:visited { color: #00f; }
+.htmlarea .statusBar .statusBarTree a:hover { background-color: Highlight; color: HighlightText; padding: 1px 4px; border: 1px solid HighlightText;}
+
+externalHeader,
+.externalHeader A	{ font-size: larger; color: #06A; font-weight: bold; text-decoration: none;}
+.externalHeader:first-letter {color: #F93;}
+.externalError  {border: 1px solid #F93; color: #F00; font-weight: bold;}
+.externalTable  {border: 2px solid #06A; background-color: #f4f5f7; padding: 15px;}
+.externalField,
+.externalTable THEAD {color: #444; font-weight: bold;}
+.externalList	{border: 1px solid #06A; background-color: #f4f5f7; padding: 0px;}
+
+.externalLink  {font-weight: bold;}
+.externalLink A, .linkLabel A:link, .linkLabel A:active {color: #06A;}
+.externalLink A:hover	{color: #F93;}
+
+.externalOption  {font-size: smaller; color: #444;}
+
+.externalAction {border: double #F93; text-align:center; font-weight: bold; background-color: #f4f5f7;}
+.externalAction A,
+.externalAction A:active {color: #06A; text-decoration:none;}
+.externalAction A:hover	 {color: #F93; text-decoration:none;}
+
+.externalInfo	{font-size: smaller; color: #DDD; }
+.externalInfo A, .externalInfo A:active .externalInfo A:hover {color: #DDD; text-decoration:none;}
+
+.externalMessage {border: 0px solid #06A; background-color: #f4f5f7; padding: 2px;}
+.externalMessage TT {font-size: 10pt;}
+
+.externalSubtable	{padding: 2px;}
+
